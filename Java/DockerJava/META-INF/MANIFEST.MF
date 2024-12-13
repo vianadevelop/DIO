@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.9.9
+Built-By: victor
+Build-Jdk: 17.0.13
+Main-Class: org.example.Main
+
+
