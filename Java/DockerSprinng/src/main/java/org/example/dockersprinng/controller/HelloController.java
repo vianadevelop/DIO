@@ -6,9 +6,10 @@ import org.springframework.ui.Model;
 
 @Controller
 public class HelloController {
+
     @GetMapping("/")
     public String hello(Model model) {
-        model.addAttribute("mensagem", "Olá, Mundo com Spring Boot!");
-        return "index"; // Retorna o template index.html
+        model.addAttribute("message", "Hello, Docker!");
+        return "index"; // Referência ao arquivo HTML em src/main/resources/templates/
     }
 }
